@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/ECE2700/Lab 3/comb/voting.xst" -ofn "C:/Users/A02042652/Desktop/ECE2700/Lab 3/comb/voting.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc voting.ucf -p xc3s100e-tq144-4 "voting.ngc" voting.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o voting_map.ncd voting.ngd voting.pcf 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/ECE2700/Lab 3/comb/voting.xst" -ofn "C:/Users/A02042652/Desktop/ECE2700/Lab 3/comb/voting.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc voting.ucf -p xc3s100e-cp132-4 "voting.ngc" voting.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o voting_map.ncd voting.ngd voting.pcf 
+par -w -intstyle ise -ol high -t 1 voting_map.ncd voting.ncd voting.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml voting.twx voting.ncd -o voting.twr voting.pcf -ucf voting.ucf 
+bitgen -intstyle ise -f voting.ut voting.ncd 

@@ -1,0 +1,475 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: soph7seg.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "soph7seg.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "soph7seg"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : soph7seg
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "clockdivider.v" in library work
+Compiling verilog file "soph7seg.v" in library work
+Module <clockdivider> compiled
+Module <soph7seg> compiled
+No errors in compilation
+Analysis of file <"soph7seg.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <soph7seg> in library <work> with parameters.
+	A = "00000000000000000000000000000000"
+	B = "00000000000000000000000000000001"
+	C = "00000000000000000000000000000010"
+	D = "00000000000000000000000000000011"
+	E = "00000000000000000000000000000100"
+	F = "00000000000000000000000000000101"
+	G = "00000000000000000000000000000110"
+	H = "00000000000000000000000000000111"
+	I = "00000000000000000000000000001000"
+	J = "00000000000000000000000000001001"
+	K = "00000000000000000000000000001010"
+	L = "00000000000000000000000000001011"
+	M = "00000000000000000000000000001100"
+	N = "00000000000000000000000000001101"
+	O = "00000000000000000000000000001110"
+	P = "00000000000000000000000000001111"
+
+Analyzing hierarchy for module <clockdivider> in library <work> with parameters.
+	DivVal = "00000001011111010111100001000000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <soph7seg>.
+	A = 32'sb00000000000000000000000000000000
+	B = 32'sb00000000000000000000000000000001
+	C = 32'sb00000000000000000000000000000010
+	D = 32'sb00000000000000000000000000000011
+	E = 32'sb00000000000000000000000000000100
+	F = 32'sb00000000000000000000000000000101
+	G = 32'sb00000000000000000000000000000110
+	H = 32'sb00000000000000000000000000000111
+	I = 32'sb00000000000000000000000000001000
+	J = 32'sb00000000000000000000000000001001
+	K = 32'sb00000000000000000000000000001010
+	L = 32'sb00000000000000000000000000001011
+	M = 32'sb00000000000000000000000000001100
+	N = 32'sb00000000000000000000000000001101
+	O = 32'sb00000000000000000000000000001110
+	P = 32'sb00000000000000000000000000001111
+Module <soph7seg> is correct for synthesis.
+ 
+Analyzing module <clockdivider> in library <work>.
+	DivVal = 32'sb00000001011111010111100001000000
+Module <clockdivider> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clockdivider>.
+    Related source file is "clockdivider.v".
+    Found 1-bit register for signal <ClkOut>.
+    Found 1-bit register for signal <ClkInt>.
+    Found 25-bit up counter for signal <DivCnt>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <clockdivider> synthesized.
+
+
+Synthesizing Unit <soph7seg>.
+    Related source file is "soph7seg.v".
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit register for signal <Num>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   4 D-type flip-flop(s).
+Unit <soph7seg> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 3
+ 1-bit register                                        : 2
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <State/FSM> on signal <State[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 00
+ 0001  | 01
+ 0010  | 11
+ 0011  | 10
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <soph7seg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block soph7seg, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : soph7seg.ngr
+Top Level Output File Name         : soph7seg
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 109
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 24
+#      LUT2                        : 6
+#      LUT2_L                      : 1
+#      LUT3                        : 1
+#      LUT4                        : 15
+#      MUXCY                       : 31
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 33
+#      FD                          : 1
+#      FDE                         : 1
+#      FDR                         : 29
+#      FDRE                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       26  out of    960     2%  
+ Number of Slice Flip Flops:             33  out of   1920     1%  
+ Number of 4 input LUTs:                 51  out of   1920     2%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of     83    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+instance1/ClkOut                   | NONE(Num_0)            | 6     |
+clk0                               | BUFGP                  | 27    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.300ns (Maximum Frequency: 188.692MHz)
+   Minimum input arrival time before clock: 3.704ns
+   Maximum output required time after clock: 6.095ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'instance1/ClkOut'
+  Clock period: 3.519ns (frequency: 284.172MHz)
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Delay:               3.519ns (Levels of Logic = 2)
+  Source:            Num_0 (FF)
+  Destination:       Num_3 (FF)
+  Source Clock:      instance1/ClkOut rising
+  Destination Clock: instance1/ClkOut rising
+
+  Data Path: Num_0 to Num_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.591   1.108  Num_0 (Num_0)
+     LUT2_L:I0->LO         1   0.704   0.104  NumNext<3>_SW0 (N13)
+     LUT4:I3->O            1   0.704   0.000  NumNext<3> (NumNext<3>)
+     FDR:D                     0.308          Num_3
+    ----------------------------------------
+    Total                      3.519ns (2.307ns logic, 1.212ns route)
+                                       (65.6% logic, 34.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk0'
+  Clock period: 5.300ns (frequency: 188.692MHz)
+  Total number of paths / destination ports: 1002 / 53
+-------------------------------------------------------------------------
+Delay:               5.300ns (Levels of Logic = 8)
+  Source:            instance1/DivCnt_9 (FF)
+  Destination:       instance1/ClkOut (FF)
+  Source Clock:      clk0 rising
+  Destination Clock: clk0 rising
+
+  Data Path: instance1/DivCnt_9 to instance1/ClkOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  instance1/DivCnt_9 (instance1/DivCnt_9)
+     LUT4:I0->O            1   0.704   0.000  instance1/ClkInt_cmp_eq0000_wg_lut<1> (instance1/ClkInt_cmp_eq0000_wg_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  instance1/ClkInt_cmp_eq0000_wg_cy<1> (instance1/ClkInt_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  instance1/ClkInt_cmp_eq0000_wg_cy<2> (instance1/ClkInt_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  instance1/ClkInt_cmp_eq0000_wg_cy<3> (instance1/ClkInt_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  instance1/ClkInt_cmp_eq0000_wg_cy<4> (instance1/ClkInt_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  instance1/ClkInt_cmp_eq0000_wg_cy<5> (instance1/ClkInt_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O          27   0.331   1.340  instance1/ClkInt_cmp_eq0000_wg_cy<6> (instance1/ClkInt_cmp_eq0000)
+     LUT2:I1->O            1   0.704   0.000  instance1/ClkOut_mux00001 (instance1/ClkOut_mux0000)
+     FD:D                      0.308          instance1/ClkOut
+    ----------------------------------------
+    Total                      5.300ns (3.338ns logic, 1.962ns route)
+                                       (63.0% logic, 37.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'instance1/ClkOut'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              3.704ns (Levels of Logic = 3)
+  Source:            count (PAD)
+  Destination:       Num_3 (FF)
+  Destination Clock: instance1/ClkOut rising
+
+  Data Path: count to Num_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.666  count_IBUF (count_IBUF)
+     LUT2_L:I1->LO         1   0.704   0.104  NumNext<3>_SW0 (N13)
+     LUT4:I3->O            1   0.704   0.000  NumNext<3> (NumNext<3>)
+     FDR:D                     0.308          Num_3
+    ----------------------------------------
+    Total                      3.704ns (2.934ns logic, 0.770ns route)
+                                       (79.2% logic, 20.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'instance1/ClkOut'
+  Total number of paths / destination ports: 36 / 11
+-------------------------------------------------------------------------
+Offset:              6.095ns (Levels of Logic = 2)
+  Source:            Num_0 (FF)
+  Destination:       a (PAD)
+  Source Clock:      instance1/ClkOut rising
+
+  Data Path: Num_0 to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.591   1.108  Num_0 (Num_0)
+     LUT4:I0->O            1   0.704   0.420  a1 (a_OBUF)
+     OBUF:I->O                 3.272          a_OBUF (a)
+    ----------------------------------------
+    Total                      6.095ns (4.567ns logic, 1.528ns route)
+                                       (74.9% logic, 25.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.69 secs
+ 
+--> 
+
+Total memory usage is 297616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

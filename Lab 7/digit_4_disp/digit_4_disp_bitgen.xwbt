@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\lab 7\digit_4_disp\digit_4_disp.ncd
+OUTFILE=D:\lab 7\digit_4_disp\digit_4_disp.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\lab 7\digit_4_disp
+LICENSE=ISE
+USER_INFO=178894513_207303412_207651036_367

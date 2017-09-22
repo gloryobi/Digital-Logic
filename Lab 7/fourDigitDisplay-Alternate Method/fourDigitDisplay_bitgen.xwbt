@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ECE\Documents\ECE 2700\Lab 7\fourDigitDisplay\fourDigitDisplay.ncd
+OUTFILE=C:\Users\ECE\Documents\ECE 2700\Lab 7\fourDigitDisplay\fourDigitDisplay.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4tq144
+WORKINGDIR=C:\Users\ECE\Documents\ECE 2700\Lab 7\fourDigitDisplay
+LICENSE=WebPack
+USER_INFO=210990442_0_0_454

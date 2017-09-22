@@ -1,0 +1,14 @@
+NET "clk" LOC = "p54"; # Bank = 2, Signal name = CLK1
+
+NET "a" LOC = "p25"; # Bank = 3, Signal name = CA
+NET "b" LOC = "p16"; # Bank = 3, Signal name = CB
+NET "c" LOC = "p23"; # Bank = 3, Signal name = CC
+NET "d" LOC = "p21"; # Bank = 3, Signal name = CD
+NET "e" LOC = "p20"; # Bank = 3, Signal name = CE
+NET "f" LOC = "p17"; # Bank = 3, Signal name = CF
+NET "g" LOC = "p83"; # Bank = 1, Signal name = CG
+
+NET "n3" LOC = "p26"; # Bank = 3, Signal name = AN3
+NET "n2" LOC = "p32"; # Bank = 3, Signal name = AN2
+NET "n1" LOC = "p33"; # Bank = 3, Signal name = AN1
+NET "n0" LOC = "p34"; # Bank = 3, Signal name = AN0

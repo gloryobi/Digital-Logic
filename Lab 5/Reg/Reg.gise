@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Reg.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="dflipfloptest.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="dflipfloptest.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dflipfloptest.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="dflipfloptest.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="dflipfloptest.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dflipfloptest_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dflipfloptest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dflipfloptest_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg4bit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg4bitmuxtest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="reg4bitmuxtest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="reg4bitmuxtest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg4bitmuxtest_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="reg4bittest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg4bittest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1456852210" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1456852210">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660500" xil_pn:in_ck="8006608162001730110" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1458660500">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="dflipflop.v"/>
+      <outfile xil_pn:name="dflipfloptest.v"/>
+      <outfile xil_pn:name="mux4bit4x1.v"/>
+      <outfile xil_pn:name="reg4bit.v"/>
+      <outfile xil_pn:name="reg4bitmux.v"/>
+      <outfile xil_pn:name="reg4bitmuxtest.v"/>
+      <outfile xil_pn:name="reg4bittest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660608" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2585666594686875970" xil_pn:start_ts="1458660608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660608" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5872945717278424580" xil_pn:start_ts="1458660608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1456852210" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4866860631549669822" xil_pn:start_ts="1456852210">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660500" xil_pn:in_ck="8006608162001730110" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1458660500">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="dflipflop.v"/>
+      <outfile xil_pn:name="dflipfloptest.v"/>
+      <outfile xil_pn:name="mux4bit4x1.v"/>
+      <outfile xil_pn:name="reg4bit.v"/>
+      <outfile xil_pn:name="reg4bitmux.v"/>
+      <outfile xil_pn:name="reg4bitmuxtest.v"/>
+      <outfile xil_pn:name="reg4bittest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660614" xil_pn:in_ck="8006608162001730110" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5324876968721173093" xil_pn:start_ts="1458660608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="reg4bitmuxtest_beh.prj"/>
+      <outfile xil_pn:name="reg4bitmuxtest_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1458660616" xil_pn:in_ck="4367006041725944873" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4961623849597062520" xil_pn:start_ts="1458660614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="reg4bitmuxtest_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7477201744023896391" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4866860631549669822" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="534666800791195191" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810740" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2707117104823934580" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810749" xil_pn:in_ck="1013598095973521064" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7698969126257029865" xil_pn:start_ts="1424810740">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="dflipfloptest.lso"/>
+      <outfile xil_pn:name="dflipfloptest.prj"/>
+      <outfile xil_pn:name="dflipfloptest.syr"/>
+      <outfile xil_pn:name="dflipfloptest.xst"/>
+      <outfile xil_pn:name="dflipfloptest_stx_beh.prj"/>
+      <outfile xil_pn:name="dflipfloptest_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810749" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2269694754049845662" xil_pn:start_ts="1424810749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

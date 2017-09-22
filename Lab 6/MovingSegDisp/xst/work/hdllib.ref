@@ -1,0 +1,4 @@
+MO SevenSeg NULL "../../Lab 4/sevenSeg/SevenSeg.v" vlg58/_seven_seg.bin 1456848661
+MO seg7 NULL "../../Lab 4/sevenSeg/seg7.v" vlg3E/seg7.bin 1459259836
+MO clockdivider NULL clockdivider.v vlg6B/clockdivider.bin 1459259836
+MO movsevseg NULL movsevseg.v vlg13/movsevseg.bin 1459259836

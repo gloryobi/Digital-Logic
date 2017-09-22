@@ -1,0 +1,5 @@
+verilog work "dec3x8.v"
+verilog work "maj.v"
+verilog work "voting.v"
+verilog work "votingtest.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

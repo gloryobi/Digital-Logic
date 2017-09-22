@@ -1,0 +1,27 @@
+NET "L3" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "L2" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "L1" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "L0" LOC = "G3";  # Bank = 3, Signal name = SW4
+
+NET "a" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "b" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "c" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "d" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "e" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "f" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "g" LOC = "M12"; # Bank = 1, Signal name = CG
+
+NET "n3" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "n2" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "n1" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "n0" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+NET "tc" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+NET "cnt" LOC = "A7";  # Bank = 1, Signal name = BTN3
+NET "dir" LOC = "M4";  # Bank = 0, Signal name = BTN2
+NET "ld" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "clr" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+NET "clk0" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "clk0" CLOCK_DEDICATED_ROUTE = FALSE;

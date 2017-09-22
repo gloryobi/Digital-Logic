@@ -1,0 +1,27 @@
+NET "clk" LOC = "p54"; # Bank = 2, Signal name = CLK1
+//NET "Clk" LOC = "B8"; # Bank = 0, Signal name = MCLK
+
+NET "a" LOC = "p25"; # Bank = 3, Signal name = CA
+NET "b" LOC = "p16"; # Bank = 3, Signal name = CB
+NET "c" LOC = "p23"; # Bank = 3, Signal name = CC
+NET "d" LOC = "p21"; # Bank = 3, Signal name = CD
+NET "e" LOC = "p20"; # Bank = 3, Signal name = CE
+NET "f" LOC = "p17"; # Bank = 3, Signal name = CF
+NET "g" LOC = "p83"; # Bank = 1, Signal name = CG
+
+NET "n3" LOC = "p26"; # Bank = 3, Signal name = AN3
+NET "n2" LOC = "p32"; # Bank = 3, Signal name = AN2
+NET "n1" LOC = "p33"; # Bank = 3, Signal name = AN1
+NET "n0" LOC = "p34"; # Bank = 3, Signal name = AN0
+
+NET "L3" LOC = "p24"; # Bank = 3, Signal name = SW3
+NET "L2" LOC = "p29"; # Bank = 3, Signal name = SW2
+NET "L1" LOC = "p36"; # Bank = 3, Signal name = SW1
+NET "L0" LOC = "p38"; # Bank = 2, Signal name = SW0
+
+NET "cnt" LOC = "p41"; # Bank = 2, Signal name = BTN3
+NET "dir" LOC = "p47"; # Bank = 2, Signal name = BTN2
+NET "ld" LOC = "p48"; # Bank = 2, Signal name = BTN1
+NET "clr" LOC = "p69"; # Bank = 2, Signal name = BTN0
+
+NET "tc" LOC = "p15" ; # Bank = 3, Signal name = LD0

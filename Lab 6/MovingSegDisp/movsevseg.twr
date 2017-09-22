@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf
+-ucf movsevseg.ucf
+
+Design file:              movsevseg.ncd
+Physical constraint file: movsevseg.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk0           |    4.876|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+w              |a              |    8.109|
+w              |b              |    8.944|
+w              |c              |    9.087|
+w              |d              |    8.267|
+w              |e              |    8.900|
+w              |f              |    8.122|
+w              |g              |    8.950|
+x              |a              |    7.891|
+x              |b              |    8.562|
+x              |c              |    8.705|
+x              |d              |    8.074|
+x              |e              |    8.682|
+x              |f              |    7.747|
+x              |g              |    8.575|
+y              |a              |    6.912|
+y              |b              |    7.692|
+y              |c              |    7.835|
+y              |d              |    7.135|
+y              |e              |    7.703|
+y              |f              |    6.935|
+y              |g              |    7.763|
+z              |a              |    8.164|
+z              |b              |    8.792|
+z              |c              |    8.935|
+z              |d              |    8.382|
+z              |e              |    8.955|
+z              |f              |    8.008|
+z              |g              |    8.836|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 29 07:58:05 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 169 MB
+
+
+

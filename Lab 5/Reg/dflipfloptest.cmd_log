@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab5/Reg/dflipfloptest.xst" -ofn "C:/Users/A02042652/Desktop/Lab5/Reg/dflipfloptest.syr" 

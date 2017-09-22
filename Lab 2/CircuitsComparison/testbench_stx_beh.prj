@@ -1,0 +1,4 @@
+verilog isim_temp "circuit2.v"
+verilog isim_temp "circuit1.v"
+verilog isim_temp "testbench.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

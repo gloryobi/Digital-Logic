@@ -1,0 +1,3 @@
+verilog work "clockdivider.v"
+verilog work "../../Lab 4/sevenSeg/seg7.v"
+verilog work "counter.v"

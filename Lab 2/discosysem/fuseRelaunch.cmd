@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/Lab 2/discosysem/disco_test_isim_beh.exe" -prj "F:/Lab 2/discosysem/disco_test_beh.prj" "work.disco_test" "work.glbl" 

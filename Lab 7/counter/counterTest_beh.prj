@@ -1,0 +1,5 @@
+verilog work "clockdivider.v"
+verilog work "../../Lab 4/sevenSeg/seg7.v"
+verilog work "counter.v"
+verilog work "counterTest.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,29 @@
+Command line:
+   testshifter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55479
+
+Tue Feb 09 09:52:30 2016
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 836.379 Meg
+
+ Total Signals          : 147
+ Total Nets             : 131
+ Total Signal Drivers   : 61
+ Total Blocks           : 19
+ Total Primitive Blocks : 13
+ Total Processes        : 63
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 217
+Total Line Count : 26
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 836.379 Meg
+
+Tue Feb 09 09:52:34 2016
+

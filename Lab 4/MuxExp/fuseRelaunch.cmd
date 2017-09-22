@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Digital Circuits/Lab 4/MuxExp/testshifter_isim_beh.exe" -prj "E:/Digital Circuits/Lab 4/MuxExp/testshifter_beh.prj" "work.testshifter" "work.glbl" 

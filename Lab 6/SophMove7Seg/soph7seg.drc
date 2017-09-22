@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 29 10:25:02 2016
+
+drc -z soph7seg.ncd soph7seg.pcf
+
+DRC detected 0 errors and 0 warnings.

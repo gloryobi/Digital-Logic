@@ -1,0 +1,5 @@
+MO digit_4_disp NULL digit_4_disp.v vlg13/digit__4__disp.bin 1428185079
+MO seg7 NULL "../../Lab 4/sevenSeg/seg7.v" vlg3E/seg7.bin 1428185079
+MO mux4x1 NULL "D:/Lab 4/MuxExp/mux4x1.v" vlg6B/mux4x1.bin 1427834821
+MO clockdivider NULL clockdivider.v vlg6B/clockdivider.bin 1428185079
+MO timer NULL ../timer/timer.v vlg09/timer.bin 1427837808

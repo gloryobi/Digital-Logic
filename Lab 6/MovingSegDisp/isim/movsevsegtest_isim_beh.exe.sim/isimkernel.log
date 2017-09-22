@@ -1,0 +1,28 @@
+Command line:
+   movsevsegtest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53168
+
+Tue Mar 03 21:40:26 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 832.037 Meg
+
+ Total Signals          : 51
+ Total Nets             : 32
+ Total Signal Drivers   : 24
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 30
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 314
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 360.153 Meg
+
+Tue Mar 03 22:19:37 2015
+

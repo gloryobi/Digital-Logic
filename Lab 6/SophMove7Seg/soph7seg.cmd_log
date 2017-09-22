@@ -1,0 +1,68 @@
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s250e-tq144-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s250e-tq144-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.xst" -ofn "E:/Digital Circuits/lab 6/SophMove7Seg/soph7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc soph7seg.ucf -p xc3s100e-cp132-4 "soph7seg.ngc" soph7seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o soph7seg_map.ncd soph7seg.ngd soph7seg.pcf 
+par -w -intstyle ise -ol high -t 1 soph7seg_map.ncd soph7seg.ncd soph7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml soph7seg.twx soph7seg.ncd -o soph7seg.twr soph7seg.pcf -ucf soph7seg.ucf 
+bitgen -intstyle ise -f soph7seg.ut soph7seg.ncd 

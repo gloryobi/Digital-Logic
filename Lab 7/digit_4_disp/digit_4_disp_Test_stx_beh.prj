@@ -1,0 +1,7 @@
+verilog isim_temp "../../../Downloads/clockdivider.v"
+verilog isim_temp "../../Lab 4/sevenSeg/seg7.v"
+verilog isim_temp "../timer/timer.v"
+verilog isim_temp "../../Lab 4/MuxExp/mux4x1.v"
+verilog isim_temp "digit_4_disp.v"
+verilog isim_temp "digit_4_disp_Test.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

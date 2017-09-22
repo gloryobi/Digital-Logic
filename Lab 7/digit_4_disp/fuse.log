@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp_Test_isim_beh.exe -prj C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp_Test_beh.prj work.digit_4_disp_Test work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Lab 4/sevenSeg/seg7.v" into library work
+Analyzing Verilog file "C:/Users/A02042652/Desktop/lab 7/digit_4_disp/clockdivider.v" into library work
+Analyzing Verilog file "C:/Users/A02042652/Desktop/lab 7/digit_4_disp/../timer/timer.v" into library work
+Analyzing Verilog file "C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp.v" into library work
+Analyzing Verilog file "C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp_Test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp.v" Line 35: Target <n3> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Compiling module clockdivider
+Compiling module seg7
+Compiling module timer
+Compiling module digit_4_disp
+Compiling module digit_4_disp_Test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/A02042652/Desktop/lab 7/digit_4_disp/digit_4_disp_Test_isim_beh.exe
+Fuse Memory Usage: 30680 KB
+Fuse CPU Usage: 639 ms

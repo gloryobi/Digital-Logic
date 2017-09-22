@@ -1,0 +1,69 @@
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+xst -intstyle ise -ifn "D:/Lab 4/sevenSeg/seg7.xst" -ofn "D:/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+xst -intstyle ise -ifn "C:/Users/gloryobielodan/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/gloryobielodan/Desktop/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "C:/Users/gloryobielodan/Desktop/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/gloryobielodan/Desktop/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/ECE2700/Lab 4/sevenSeg/seg7.xst" -ofn "C:/Users/A02042652/Desktop/ECE2700/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 
+xst -intstyle ise -ifn "F:/Lab 4/sevenSeg/seg7.xst" -ofn "F:/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "F:/Lab 4/sevenSeg/seg7.xst" -ofn "F:/Lab 4/sevenSeg/seg7.syr" 
+xst -intstyle ise -ifn "F:/Lab 4/sevenSeg/seg7.xst" -ofn "F:/Lab 4/sevenSeg/seg7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg7.ucf -p xc3s100e-cp132-4 "seg7.ngc" seg7.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg7_map.ncd seg7.ngd seg7.pcf 
+par -w -intstyle ise -ol high -t 1 seg7_map.ncd seg7.ncd seg7.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg7.twx seg7.ncd -o seg7.twr seg7.pcf -ucf seg7.ucf 
+bitgen -intstyle ise -f seg7.ut seg7.ncd 

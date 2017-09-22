@@ -1,0 +1,2 @@
+verilog work "dflipflop.v"
+verilog work "dflipfloptest.v"

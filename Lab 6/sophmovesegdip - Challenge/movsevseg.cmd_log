@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.xst" -ofn "C:/Users/A02042652/Desktop/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.xst" -ofn "E:/Digital Circuits/lab 6/sophmovesegdip - Challenge/movsevseg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sophmov7seg.ucf -p xc3s100e-cp132-4 "movsevseg.ngc" movsevseg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o movsevseg_map.ncd movsevseg.ngd movsevseg.pcf 
+par -w -intstyle ise -ol high -t 1 movsevseg_map.ncd movsevseg.ncd movsevseg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml movsevseg.twx movsevseg.ncd -o movsevseg.twr movsevseg.pcf -ucf sophmov7seg.ucf 
+bitgen -intstyle ise -f movsevseg.ut movsevseg.ncd 

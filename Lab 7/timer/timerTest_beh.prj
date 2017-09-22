@@ -1,0 +1,5 @@
+verilog work "seg7.v"
+verilog work "clockdivider.v"
+verilog work "timer.v"
+verilog work "timerTest.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

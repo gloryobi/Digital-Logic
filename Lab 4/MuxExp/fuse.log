@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/Digital Circuits/Lab 4/MuxExp/testshifter_isim_beh.exe -prj E:/Digital Circuits/Lab 4/MuxExp/testshifter_beh.prj work.testshifter work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Digital Circuits/Lab 4/MuxExp/mux2x1.v" into library work
+Analyzing Verilog file "E:/Digital Circuits/Lab 4/MuxExp/mux4x1.v" into library work
+Analyzing Verilog file "E:/Digital Circuits/Lab 4/MuxExp/shifter.v" into library work
+Analyzing Verilog file "E:/Digital Circuits/Lab 4/MuxExp/testshifter.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/Digital Circuits/Lab 4/MuxExp/shifter.v" Line 31: Size mismatch in connection of port <I1>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Digital Circuits/Lab 4/MuxExp/shifter.v" Line 28: Size mismatch in connection of port <I2>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module mux2x1
+Compiling module mux4x1
+Compiling module shifter
+Compiling module testshifter
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable E:/Digital Circuits/Lab 4/MuxExp/testshifter_isim_beh.exe
+Fuse Memory Usage: 25952 KB
+Fuse CPU Usage: 874 ms

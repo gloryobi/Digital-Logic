@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Digital Circuits/Lab 5/Reg/reg4bitmuxtest_isim_beh.exe" -prj "E:/Digital Circuits/Lab 5/Reg/reg4bitmuxtest_beh.prj" "work.reg4bitmuxtest" "work.glbl" 

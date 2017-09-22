@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Digital Circuits\lab 7\counter\counter.ncd
+OUTFILE=E:\Digital Circuits\lab 7\counter\counter.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=E:\Digital Circuits\lab 7\counter
+LICENSE=WebPack
+USER_INFO=210990442_0_0_454

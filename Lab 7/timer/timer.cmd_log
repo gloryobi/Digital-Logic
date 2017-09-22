@@ -1,0 +1,317 @@
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "D:/lab 7/timer/timer.xst" -ofn "D:/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "C:/Users/A02042652/Desktop/lab 7/timer/timer.xst" -ofn "C:/Users/A02042652/Desktop/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
+xst -intstyle ise -ifn "E:/Digital Circuits/lab 7/timer/timer.xst" -ofn "E:/Digital Circuits/lab 7/timer/timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc3s100e-cp132-4 "timer.ngc" timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o timer_map.ncd timer.ngd timer.pcf 
+par -w -intstyle ise -ol high -t 1 timer_map.ncd timer.ncd timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml timer.twx timer.ncd -o timer.twr timer.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f timer.ut timer.ncd 
